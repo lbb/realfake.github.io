@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <style>
+
+        footer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1rem;
+            text-align: center;
+            font-size: larger;
+        }
+
+        body {
+            background-color: #fefffe;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        .list {
+            text-align: left;
+        }
+
+        .blink_text {
+            animation-duration: 430ms;
+            animation-name: blink;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        .fa-heart {
+            color: #ff0e28;
+        }
+
+        .container {
+            width: 400px;
+            text-align: center;
+            margin: auto;
+        }
+
+        @keyframes blink {
+            from {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+            }
+        }
+
+        dt {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1># lukburchard ~: <a class="blink_text">█</a></h1>
+    <br>
+    <h2>Hello to my little website!</h2>
+    <div class="list">
+        <dl>
+            <dt>Who am I?</dt>
+            <dd>Hey there, I'm a student in the TU-Berlin.
+            </dd>
+            <dt>Availability</dt>
+            <dd>Currently I'm working as a freelancer
+                but you can reach me under one of the
+                links in the footer.
+            </dd>
+            <dt>My work.</dt>
+            <dd>
+                I love open source projects, checkout mine at GitHub.
+            </dd>
+            <dt>
+                Miscellaneous
+            </dt>
+            <dd>
+                <a href="/keys">Keys</a>, <a href="/blog">Blog</a>
+            </dd>
+        </dl>
+    </div>
+</div>
+</body>
+<footer>
+    <a href="https://twitter.com/lukburchard"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="https://github.com/realfake"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <a href="https://plus.google.com/107706855721565412344"><i class="fa fa-google-plus-official"
+                                                               aria-hidden="true"></i></a>
+    <a href="mailto:contact@realfake.me"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+</footer>
+</html>
